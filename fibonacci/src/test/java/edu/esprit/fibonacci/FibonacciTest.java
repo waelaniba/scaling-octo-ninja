@@ -44,6 +44,14 @@ public class FibonacciTest {
 	  
   }     
   
+  @Test
+  public void shouldReturn8When6In() {
+	  
+	  Fibonacci fibonacci = new Fibonacci();
+	  long fibo = fibonacci.fibo(6);
+	  Assert.assertEquals(8, fibo);
+	  
+  }  
   
   
 }
