@@ -61,6 +61,16 @@ public class FibonacciTest {
 	  Assert.assertEquals(13, fibo);
 	  
   }  
+  
+  @Test
+  public void shouldReturn21When8In() {
+	  
+	  Fibonacci fibonacci = new Fibonacci();
+	  long fibo = fibonacci.fibo(8);
+	  Assert.assertEquals(21, fibo);
+	  
+  }  
+      
     
   
 }
