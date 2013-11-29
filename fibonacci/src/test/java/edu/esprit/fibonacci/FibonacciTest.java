@@ -54,11 +54,11 @@ public class FibonacciTest {
   }  
   
   @Test
-  public void shouldReturn8When4In() {
+  public void shouldReturn13When7In() {
 	  
 	  Fibonacci fibonacci = new Fibonacci();
-	  long fibo = fibonacci.fibo(4);
-	  Assert.assertEquals(8, fibo);
+	  long fibo = fibonacci.fibo(7);
+	  Assert.assertEquals(13, fibo);
 	  
   }  
     
