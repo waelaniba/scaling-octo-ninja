@@ -8,25 +8,7 @@
 	<name>fibonacci</name>
 	<url>http://maven.apache.org</url>
 
-	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-site-plugin</artifactId>
-					<version>3.3</version>
-					<dependencies>
-						<dependency><!-- add support for ssh/scp -->
-							<groupId>org.apache.maven.wagon</groupId>
-							<artifactId>wagon-ssh</artifactId>
-							<version>1.0</version>
-						</dependency>
-					</dependencies>
-				</plugin>
-			</plugins>
-		</pluginManagement>
-	</build>
-
+	
 	<distributionManagement>
 
 		<repository>
@@ -34,11 +16,6 @@
 			<name>nexus</name>
 			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
 		</repository>
-
-		<site>
-			<id>qifcon.sf.net</id>
-			<url>scp://shell.sourceforge.net/home/project-web/waelaniba/htdocs</url>
-		</site>
 
 	</distributionManagement>
 
