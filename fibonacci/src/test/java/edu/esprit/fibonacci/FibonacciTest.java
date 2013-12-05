@@ -73,17 +73,7 @@ public class FibonacciTest {
 	  Assert.assertEquals(21, fibo);
 	  
   }  
-  
-  @Test
-  public void shouldReturn50When14In() {
-	 
-	  //comment
-	  Fibonacci fibonacci = new Fibonacci();
-	  long fibo = fibonacci.fibo(14);
-	  Assert.assertEquals(50, fibo);
-	  
-  }  
-  
+ 
   
   
 }
