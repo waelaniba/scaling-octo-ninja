@@ -78,7 +78,7 @@ public class FibonacciTest {
   public void shouldReturn80When60In() {
 	  
 	  Fibonacci fibonacci = new Fibonacci();
-	  long fibo = fibonacci.fibo(60);
+	  long fibo = fibonacci.fibo(8);
 	  Assert.assertEquals(13, fibo);
 	  
   }    
